@@ -1,11 +1,32 @@
-.bg-image {
+.home-banner {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../images/bg-img.png);
-    /* background-color: aqua; */
     width: 100%;
     height: 400px;
+    padding: 120px 0;
+}
+
+.banner-form form {
+    align-items: center;
+}
+
+.banner-form .input-group {
+    width: 50%;
+    position: relative;
+    border-radius: 30px;
+}
+
+.banner-form .btn-outline-primary {
+    background-color: #0d6efd;
+    color: #fff;
+    height: 45px;
+}
+
+.banner-form .btn-outline-primary:hover {
+    background-color: #fff;
+    color: #0d6efd;
 }
 
 
